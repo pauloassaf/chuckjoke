@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+img {
+    align-self: center;
+    width: 10em;
+    height: 9em;
+    border: solid white 5px;
+    justify-self: center;
+    margin: 1em;
+
+}
+
+.bt {
+    background: darkblue;
+    align-self: center;
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
+    background: darkred;
+    border: solid white 2px;
+    color: white;
+    justify-self: center;
+ }
+
+h1 {
+    background: darkblue;
+    color: white;
+    border: solid white 5px;
+    padding: 1em;
+    justify-self: center;
+    grid-column: 1/4;
+}
